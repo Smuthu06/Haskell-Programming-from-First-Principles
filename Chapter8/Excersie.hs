@@ -99,5 +99,5 @@ a) => a -> a -> a
 -}
 
 myMul :: (Integral a) => a -> a -> a
-myMyl 1 y = y 
+myMul 1 y = y 
 myMul x y = y + (myMul (x -1) y)
